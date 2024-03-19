@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopAway - Shopping Cart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .cartItem {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+
+            .cartItem h4 {
+                margin-top: 0;
+            }
+
+            .cartItem p {
+                margin: 0;
+            }
+
+            .cartItem li {
+                list-style-type: none;
+            }
+
+        #checkout, #continue-shopping {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Your Shopping Cart</h1>
+
+        <div class="cartItem">
+            <h4>Apple Airpods | 3rd Gen</h4>
+            <p>Description: Personalized Spatial Audio with dynamic head tracking. Sweat and
+                water resistant. Up to 6 hours of listening time with a single charge. </p>
+            <ul>
+                <li>Price: R3999</li>
+            </ul>
+        </div>
+        
+        <div class="cartItem">
+            <h4>C-Type Charger</h4>
+            <p>Description: Superfly Pd Wall Charger With Type C Cable.</p>
+            <ul>
+                <li>Price: R99</li>
+            </ul>
+        </div>
+        
+        <div class="cartItem">
+            <h4>Alienware</h4>
+            <p>Description:Alienware x15 R2 15.6″ Laptop – i7, 16GB RAM, 1TB SSD, Win 11 Pro.</p>
+            <ul>
+                <li>Price: R29999</li>
+            </ul>
+        </div>
+
+        <!-- Repeat the cartItem div for each item in the cart -->
+
+        <div id="checkout">
+            <button onclick="checkout()">Checkout</button>
+        </div>
+
+        <div id="continue-shopping">
+            <a href="item">Continue Shopping</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
+

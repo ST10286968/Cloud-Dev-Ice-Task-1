@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Images\Airpods.jpg" />
+    <Content Remove="wwwroot\Images\Alien PC.jpg" />
+    <Content Remove="wwwroot\Images\C-type charger.jpg" />
+    <Content Remove="wwwroot\Images\headphones.jpg" />
+    <Content Remove="wwwroot\Images\Samsung TV.jpg" />
+    <Content Remove="wwwroot\Images\Xbox game card.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\Airpods.jpg" />
+    <None Include="wwwroot\Images\Alien PC.jpg" />
+    <None Include="wwwroot\Images\C-type charger.jpg" />
+    <None Include="wwwroot\Images\headphones.jpg" />
+    <None Include="wwwroot\Images\Samsung TV.jpg" />
+    <None Include="wwwroot\Images\Xbox game card.jpg" />
+  </ItemGroup>
+
+</Project>
